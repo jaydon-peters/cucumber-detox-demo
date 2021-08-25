@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "cucumber-detox-demo",
+    "slug": "cucumber-detox-demo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "cucumber-detox-demo"
+}
