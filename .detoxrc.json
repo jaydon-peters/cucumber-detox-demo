@@ -31,10 +31,6 @@
     "ios": {
       "device": "simulator",
       "app": "ios"
-    },
-    "android": {
-      "device": "emulator",
-      "app": "android"
     }
   }
 }

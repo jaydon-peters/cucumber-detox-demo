@@ -4,7 +4,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start"
+    "start": "react-native start",
+    "cucumber": "./node_modules/.bin/cucumber-js --require-module @babel/register ./cucumber/*.feature"
   },
   "dependencies": {
     "expo": "~42.0.1",
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@babel/register": "^7.15.3",
+    "@cucumber/cucumber": "^7.3.1",
     "detox": "^18.20.2",
     "jest": "^27.0.6"
   },
